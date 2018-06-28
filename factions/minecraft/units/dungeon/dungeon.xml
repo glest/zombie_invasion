@@ -1,0 +1,296 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<parameters>
+		<size value="5" />
+		<height value="2" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>
+		<sight value="6" />
+		<time value="100" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="11111"/>
+			<row value="00001"/>
+			<row value="10100"/>
+			<row value="10001"/>
+			<row value="11100"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<!--property value="burnable"/-->
+		</properties>
+		<!--damage-particles value="true">
+			<particle-file path="fire_particles1.xml" minHp="1000" maxHp="2999"/>
+			<particle-file path="fire_particles2.xml" minHp="1" maxHp="999"/>
+		</damage-particles-->
+		<light enabled="false" />
+		<rotationAllowed value="false" />
+		<unit-requirements>
+			<!--unit name="base" /-->
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100" />
+			<resource name="stone" amount="200" />
+		</resource-requirements>
+		<resources-stored />
+		<image path="images/dungeon.bmp" />
+		<image-cancel path="../steve/images/cancel.bmp"/>
+		<meeting-point value="true" image-path="../chest/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../chest/sounds/click.ogg" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../chest/sounds/click.ogg" />
+		</command-sounds>
+	</parameters>
+
+	<skills>
+		<skill>
+			<type value="stop"/>	
+			<name value="stop_skill"/>
+			<ep-cost value="0" />
+			<speed value="50" />
+			<anim-speed value="100" />
+			<animation path="models/dungeon38.g3d" minHp="0" maxHp="0"/>
+			<animation path="models/dungeon1.g3d" minHp="1" maxHp="160"/>
+			<animation path="models/dungeon2.g3d" minHp="161" maxHp="320"/>
+			<animation path="models/dungeon3.g3d" minHp="321" maxHp="480"/>
+			<animation path="models/dungeon4.g3d" minHp="481" maxHp="640"/>
+			<animation path="models/dungeon5.g3d" minHp="641" maxHp="800"/>
+			<animation path="models/dungeon6.g3d" minHp="801" maxHp="960"/>
+			<animation path="models/dungeon7.g3d" minHp="961" maxHp="1120"/>
+			<animation path="models/dungeon8.g3d" minHp="1121" maxHp="1280"/>
+			<animation path="models/dungeon9.g3d" minHp="1281" maxHp="1440"/>
+			<animation path="models/dungeon10.g3d" minHp="1441" maxHp="1600"/>
+			<animation path="models/dungeon11.g3d" minHp="1601" maxHp="1760"/>
+			<animation path="models/dungeon12.g3d" minHp="1761" maxHp="1920"/>
+			<animation path="models/dungeon13.g3d" minHp="1921" maxHp="2080"/>
+			<animation path="models/dungeon14.g3d" minHp="2081" maxHp="2240"/>
+			<animation path="models/dungeon15.g3d" minHp="2241" maxHp="2400"/>
+			<animation path="models/dungeon16.g3d" minHp="2401" maxHp="2560"/>
+			<animation path="models/dungeon17.g3d" minHp="2561" maxHp="2720"/>
+			<animation path="models/dungeon18.g3d" minHp="2721" maxHp="2880"/>
+			<animation path="models/dungeon19.g3d" minHp="2881" maxHp="3040"/>
+			<animation path="models/dungeon20.g3d" minHp="3041" maxHp="3200"/>
+			<animation path="models/dungeon21.g3d" minHp="3201" maxHp="3360"/>
+			<animation path="models/dungeon22.g3d" minHp="3361" maxHp="3520"/>
+			<animation path="models/dungeon23.g3d" minHp="3521" maxHp="3680"/>
+			<animation path="models/dungeon24.g3d" minHp="3681" maxHp="3840"/>
+			<animation path="models/dungeon25.g3d" minHp="3841" maxHp="4000"/>
+			<animation path="models/dungeon26.g3d" minHp="4001" maxHp="4160"/>
+			<animation path="models/dungeon27.g3d" minHp="4161" maxHp="4320"/>
+			<animation path="models/dungeon28.g3d" minHp="4321" maxHp="4480"/>
+			<animation path="models/dungeon29.g3d" minHp="4481" maxHp="4640"/>
+			<animation path="models/dungeon30.g3d" minHp="4641" maxHp="4800"/>
+			<animation path="models/dungeon31.g3d" minHp="4801" maxHp="4960"/>
+			<animation path="models/dungeon32.g3d" minHp="4961" maxHp="5120"/>
+			<animation path="models/dungeon33.g3d" minHp="5121" maxHp="5280"/>
+			<animation path="models/dungeon34.g3d" minHp="5281" maxHp="5440"/>
+			<animation path="models/dungeon35.g3d" minHp="5441" maxHp="5600"/>
+			<animation path="models/dungeon36.g3d" minHp="5601" maxHp="5760"/>
+			<animation path="models/dungeon37.g3d" minHp="5761" maxHp="5920"/>
+			<animation path="models/dungeon38.g3d" minHp="5921" maxHp="6000"/>
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built" />	
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/dungeon1.g3d" minHp="1" maxHp="160"/>
+			<animation path="models/dungeon2.g3d" minHp="161" maxHp="320"/>
+			<animation path="models/dungeon3.g3d" minHp="321" maxHp="480"/>
+			<animation path="models/dungeon4.g3d" minHp="481" maxHp="640"/>
+			<animation path="models/dungeon5.g3d" minHp="641" maxHp="800"/>
+			<animation path="models/dungeon6.g3d" minHp="801" maxHp="960"/>
+			<animation path="models/dungeon7.g3d" minHp="961" maxHp="1120"/>
+			<animation path="models/dungeon8.g3d" minHp="1121" maxHp="1280"/>
+			<animation path="models/dungeon9.g3d" minHp="1281" maxHp="1440"/>
+			<animation path="models/dungeon10.g3d" minHp="1441" maxHp="1600"/>
+			<animation path="models/dungeon11.g3d" minHp="1601" maxHp="1760"/>
+			<animation path="models/dungeon12.g3d" minHp="1761" maxHp="1920"/>
+			<animation path="models/dungeon13.g3d" minHp="1921" maxHp="2080"/>
+			<animation path="models/dungeon14.g3d" minHp="2081" maxHp="2240"/>
+			<animation path="models/dungeon15.g3d" minHp="2241" maxHp="2400"/>
+			<animation path="models/dungeon16.g3d" minHp="2401" maxHp="2560"/>
+			<animation path="models/dungeon17.g3d" minHp="2561" maxHp="2720"/>
+			<animation path="models/dungeon18.g3d" minHp="2721" maxHp="2880"/>
+			<animation path="models/dungeon19.g3d" minHp="2881" maxHp="3040"/>
+			<animation path="models/dungeon20.g3d" minHp="3041" maxHp="3200"/>
+			<animation path="models/dungeon21.g3d" minHp="3201" maxHp="3360"/>
+			<animation path="models/dungeon22.g3d" minHp="3361" maxHp="3520"/>
+			<animation path="models/dungeon23.g3d" minHp="3521" maxHp="3680"/>
+			<animation path="models/dungeon24.g3d" minHp="3681" maxHp="3840"/>
+			<animation path="models/dungeon25.g3d" minHp="3841" maxHp="4000"/>
+			<animation path="models/dungeon26.g3d" minHp="4001" maxHp="4160"/>
+			<animation path="models/dungeon27.g3d" minHp="4161" maxHp="4320"/>
+			<animation path="models/dungeon28.g3d" minHp="4321" maxHp="4480"/>
+			<animation path="models/dungeon29.g3d" minHp="4481" maxHp="4640"/>
+			<animation path="models/dungeon30.g3d" minHp="4641" maxHp="4800"/>
+			<animation path="models/dungeon31.g3d" minHp="4801" maxHp="4960"/>
+			<animation path="models/dungeon32.g3d" minHp="4961" maxHp="5120"/>
+			<animation path="models/dungeon33.g3d" minHp="5121" maxHp="5280"/>
+			<animation path="models/dungeon34.g3d" minHp="5281" maxHp="5440"/>
+			<animation path="models/dungeon35.g3d" minHp="5441" maxHp="5600"/>
+			<animation path="models/dungeon36.g3d" minHp="5601" maxHp="5760"/>
+			<animation path="models/dungeon37.g3d" minHp="5761" maxHp="5920"/>
+			<animation path="models/dungeon38.g3d" minHp="5921" maxHp="6000"/>
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="upgrade"/>	
+			<name value="upgrade_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/dungeon1.g3d" minHp="1" maxHp="160"/>
+			<animation path="models/dungeon2.g3d" minHp="161" maxHp="320"/>
+			<animation path="models/dungeon3.g3d" minHp="321" maxHp="480"/>
+			<animation path="models/dungeon4.g3d" minHp="481" maxHp="640"/>
+			<animation path="models/dungeon5.g3d" minHp="641" maxHp="800"/>
+			<animation path="models/dungeon6.g3d" minHp="801" maxHp="960"/>
+			<animation path="models/dungeon7.g3d" minHp="961" maxHp="1120"/>
+			<animation path="models/dungeon8.g3d" minHp="1121" maxHp="1280"/>
+			<animation path="models/dungeon9.g3d" minHp="1281" maxHp="1440"/>
+			<animation path="models/dungeon10.g3d" minHp="1441" maxHp="1600"/>
+			<animation path="models/dungeon11.g3d" minHp="1601" maxHp="1760"/>
+			<animation path="models/dungeon12.g3d" minHp="1761" maxHp="1920"/>
+			<animation path="models/dungeon13.g3d" minHp="1921" maxHp="2080"/>
+			<animation path="models/dungeon14.g3d" minHp="2081" maxHp="2240"/>
+			<animation path="models/dungeon15.g3d" minHp="2241" maxHp="2400"/>
+			<animation path="models/dungeon16.g3d" minHp="2401" maxHp="2560"/>
+			<animation path="models/dungeon17.g3d" minHp="2561" maxHp="2720"/>
+			<animation path="models/dungeon18.g3d" minHp="2721" maxHp="2880"/>
+			<animation path="models/dungeon19.g3d" minHp="2881" maxHp="3040"/>
+			<animation path="models/dungeon20.g3d" minHp="3041" maxHp="3200"/>
+			<animation path="models/dungeon21.g3d" minHp="3201" maxHp="3360"/>
+			<animation path="models/dungeon22.g3d" minHp="3361" maxHp="3520"/>
+			<animation path="models/dungeon23.g3d" minHp="3521" maxHp="3680"/>
+			<animation path="models/dungeon24.g3d" minHp="3681" maxHp="3840"/>
+			<animation path="models/dungeon25.g3d" minHp="3841" maxHp="4000"/>
+			<animation path="models/dungeon26.g3d" minHp="4001" maxHp="4160"/>
+			<animation path="models/dungeon27.g3d" minHp="4161" maxHp="4320"/>
+			<animation path="models/dungeon28.g3d" minHp="4321" maxHp="4480"/>
+			<animation path="models/dungeon29.g3d" minHp="4481" maxHp="4640"/>
+			<animation path="models/dungeon30.g3d" minHp="4641" maxHp="4800"/>
+			<animation path="models/dungeon31.g3d" minHp="4801" maxHp="4960"/>
+			<animation path="models/dungeon32.g3d" minHp="4961" maxHp="5120"/>
+			<animation path="models/dungeon33.g3d" minHp="5121" maxHp="5280"/>
+			<animation path="models/dungeon34.g3d" minHp="5281" maxHp="5440"/>
+			<animation path="models/dungeon35.g3d" minHp="5441" maxHp="5600"/>
+			<animation path="models/dungeon36.g3d" minHp="5601" maxHp="5760"/>
+			<animation path="models/dungeon37.g3d" minHp="5761" maxHp="5920"/>
+			<animation path="models/dungeon38.g3d" minHp="5921" maxHp="6000"/>
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/dungeon1.g3d" minHp="1" maxHp="160"/>
+			<animation path="models/dungeon2.g3d" minHp="161" maxHp="320"/>
+			<animation path="models/dungeon3.g3d" minHp="321" maxHp="480"/>
+			<animation path="models/dungeon4.g3d" minHp="481" maxHp="640"/>
+			<animation path="models/dungeon5.g3d" minHp="641" maxHp="800"/>
+			<animation path="models/dungeon6.g3d" minHp="801" maxHp="960"/>
+			<animation path="models/dungeon7.g3d" minHp="961" maxHp="1120"/>
+			<animation path="models/dungeon8.g3d" minHp="1121" maxHp="1280"/>
+			<animation path="models/dungeon9.g3d" minHp="1281" maxHp="1440"/>
+			<animation path="models/dungeon10.g3d" minHp="1441" maxHp="1600"/>
+			<animation path="models/dungeon11.g3d" minHp="1601" maxHp="1760"/>
+			<animation path="models/dungeon12.g3d" minHp="1761" maxHp="1920"/>
+			<animation path="models/dungeon13.g3d" minHp="1921" maxHp="2080"/>
+			<animation path="models/dungeon14.g3d" minHp="2081" maxHp="2240"/>
+			<animation path="models/dungeon15.g3d" minHp="2241" maxHp="2400"/>
+			<animation path="models/dungeon16.g3d" minHp="2401" maxHp="2560"/>
+			<animation path="models/dungeon17.g3d" minHp="2561" maxHp="2720"/>
+			<animation path="models/dungeon18.g3d" minHp="2721" maxHp="2880"/>
+			<animation path="models/dungeon19.g3d" minHp="2881" maxHp="3040"/>
+			<animation path="models/dungeon20.g3d" minHp="3041" maxHp="3200"/>
+			<animation path="models/dungeon21.g3d" minHp="3201" maxHp="3360"/>
+			<animation path="models/dungeon22.g3d" minHp="3361" maxHp="3520"/>
+			<animation path="models/dungeon23.g3d" minHp="3521" maxHp="3680"/>
+			<animation path="models/dungeon24.g3d" minHp="3681" maxHp="3840"/>
+			<animation path="models/dungeon25.g3d" minHp="3841" maxHp="4000"/>
+			<animation path="models/dungeon26.g3d" minHp="4001" maxHp="4160"/>
+			<animation path="models/dungeon27.g3d" minHp="4161" maxHp="4320"/>
+			<animation path="models/dungeon28.g3d" minHp="4321" maxHp="4480"/>
+			<animation path="models/dungeon29.g3d" minHp="4481" maxHp="4640"/>
+			<animation path="models/dungeon30.g3d" minHp="4641" maxHp="4800"/>
+			<animation path="models/dungeon31.g3d" minHp="4801" maxHp="4960"/>
+			<animation path="models/dungeon32.g3d" minHp="4961" maxHp="5120"/>
+			<animation path="models/dungeon33.g3d" minHp="5121" maxHp="5280"/>
+			<animation path="models/dungeon34.g3d" minHp="5281" maxHp="5440"/>
+			<animation path="models/dungeon35.g3d" minHp="5441" maxHp="5600"/>
+			<animation path="models/dungeon36.g3d" minHp="5601" maxHp="5760"/>
+			<animation path="models/dungeon37.g3d" minHp="5761" maxHp="5920"/>
+			<animation path="models/dungeon38.g3d" minHp="5921" maxHp="6000"/>
+			<particles value="true">
+				<particle-file path="no_particles.xml" minHp="1" maxHp="5998" minmaxEnabled="true"/>
+				<particle-file path="fire_particles.xml" minHp="5999" maxHp="6000" minmaxEnabled="true"/>
+			</particles>
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />	
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/none.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../steve/sounds/stone1.ogg"/>
+				<sound-file path="../steve/sounds/stone2.ogg"/>
+				<sound-file path="../steve/sounds/stone3.ogg"/>
+				<sound-file path="../steve/sounds/stone4.ogg"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="spawn_skeleton" />
+			<image path="../skeleton/images/skeleton.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="skeleton"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="spawn_creeper" />
+			<image path="../creeper/images/creeper.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="creeper"/>
+		</command>
+		
+		<!--command>
+			<type value="upgrade"/>
+			<name value="create_training_field"/>
+			<image path="../../upgrades/training_field/images/training_field.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="training_field"/>
+		</command-->				
+	</commands>
+</unit>

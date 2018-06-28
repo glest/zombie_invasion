@@ -1,0 +1,172 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="2"/>
+		<height value="2"/>
+		<max-hp value="1600" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="50"/>	
+		<armor-type value="leather"/>
+		<sight value="10"/>
+		<time value="100"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="killer" kills="6"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="spider"/>
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="iron" amount="50"/>
+			<resource name="gold" amount="150"/>
+			<resource name="food" amount="2"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/spider_jockey.bmp"/>
+		<image-cancel path="../steve/images/cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="../spider/sounds/say1.ogg"/>
+			<sound path="../spider/sounds/say2.ogg"/>
+			<sound path="../spider/sounds/say3.ogg"/>
+			<sound path="../spider/sounds/say4.ogg"/>
+			<sound path="../skeleton/sounds/say1.ogg"/>
+			<sound path="../skeleton/sounds/say2.ogg"/>
+			<sound path="../skeleton/sounds/say3.ogg"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../spider/sounds/say1.ogg"/>
+			<sound path="../spider/sounds/say2.ogg"/>
+			<sound path="../spider/sounds/say3.ogg"/>
+			<sound path="../spider/sounds/say4.ogg"/>
+			<sound path="../skeleton/sounds/hurt1.ogg"/>
+			<sound path="../skeleton/sounds/hurt2.ogg"/>
+			<sound path="../skeleton/sounds/hurt3.ogg"/>
+			<sound path="../skeleton/sounds/hurt4.ogg"/>
+		</command-sounds>
+
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/spider_jockey_idle.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="400"/>
+			<anim-speed value="310"/>
+			<animation path="models/spider_jockey_walk.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../spider/sounds/step1.ogg"/>
+				<sound-file path="../spider/sounds/step2.ogg"/>
+				<sound-file path="../spider/sounds/step3.ogg"/>
+				<sound-file path="../spider/sounds/step4.ogg"/>
+			</sound> 
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
+			<animation path="models/spider_jockey_attack.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../skeleton/sounds/bow.ogg"/>
+			</sound>
+			<attack-strenght value="250"/>
+			<attack-var value="100"/>
+			<attack-range value="12"/>
+			<attack-type value="piercing"/>
+			<attack-start-time value="0"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="../skeleton/sounds/bowhit1.ogg"/>
+					<sound-file path="../skeleton/sounds/bowhit2.ogg"/>
+					<sound-file path="../skeleton/sounds/bowhit3.ogg"/>
+					<sound-file path="../skeleton/sounds/bowhit4.ogg"/>
+				</sound>
+			</projectile>
+			<splash value="false"/>
+		</skill>
+                
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/spider_jockey_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../spider/sounds/death.ogg"/>
+				<sound-file path="../skeleton/sounds/death.ogg"/>
+			</sound> 
+                        <fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../steve/images/stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../steve/images/move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../steve/images/hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+	</commands>
+</unit>
