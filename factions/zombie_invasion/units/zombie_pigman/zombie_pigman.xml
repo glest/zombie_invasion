@@ -18,16 +18,14 @@
 		</fields>	
 		<properties/>
 		<light enabled="false"/>
-		<unit-requirements>
-			<!--unit name="barracks"/-->
-		</unit-requirements>
+		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="200"/>				
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/zombie_pigman.bmp"/>
-		<image-cancel path="../steve/images/cancel.bmp"/>
+		<image-cancel path="../zombie_steve/images/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/zpig1.ogg"/>
@@ -72,10 +70,10 @@
 			<anim-speed value="120"/>
 			<animation path="models/zombie_pigman_attack.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../diamond_steve/sounds/sword1.wav"/>
-				<sound-file path="../diamond_steve/sounds/sword2.wav"/>
-				<sound-file path="../diamond_steve/sounds/sword3.wav"/>
-				<sound-file path="../diamond_steve/sounds/sword4.wav"/>
+				<sound-file path="sounds/sword1.wav"/>
+				<sound-file path="sounds/sword2.wav"/>
+				<sound-file path="sounds/sword3.wav"/>
+				<sound-file path="sounds/sword4.wav"/>
 				<sound-file path="sounds/zpighurt1.ogg"/>
 				<sound-file path="sounds/zpighurt2.ogg"/>
 			</sound> 
@@ -120,7 +118,7 @@
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
-			<image path="../steve/images/stop.bmp"/>
+			<image path="../zombie_steve/images/stop.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
@@ -129,7 +127,7 @@
 		<command>
 			<type value="move"/>
 			<name value="move"/>
-			<image path="../steve/images/move.bmp"/>
+			<image path="../zombie_steve/images/move.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
@@ -148,7 +146,7 @@
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
-			<image path="../steve/images/hold.bmp"/>
+			<image path="../zombie_steve/images/hold.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
