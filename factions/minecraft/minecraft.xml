@@ -2,20 +2,22 @@
 
 <faction>
 	<starting-resources>
-		<resource name="diamond" amount="0"/>
-		<resource name="gold" amount="1500"/>
-		<resource name="iron" amount="0"/>
-		<resource name="stone" amount="1500"/>
-		<resource name="wood" amount="1500"/>
-		<resource name="food" amount="150"/>
+		<resource name="diamond" amount="5"/>
+		<resource name="gold" amount="500"/>
+		<resource name="iron" amount="450"/>
+		<resource name="stone" amount="500"/>
+		<resource name="wood" amount="500"/>
+		<resource name="food" amount="50"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="chest" amount="3"/>
-		<unit name="zombie_steve" amount="20"/>
-		<unit name="cow" amount="2"/>
-		<unit name="zombie" amount="0"/>
+		<unit name="chest" amount="1"/>
+		<unit name="irongolem" amount="1"/>
+		<unit name="steve" amount="5"/>
+		<unit name="cow" amount="1"/>
+		<unit name="skeleton" amount="1"/>
+		<unit name="spider" amount="2"/>
+		<unit name="cave_spider" amount="2"/>
 		<unit name="dungeon" amount="1"/>
-		<unit name="zombie_pigman" amount="5"/>
 	</starting-units>
 	<music value="true" path="music/music_tech.ogg"/>
 </faction>
