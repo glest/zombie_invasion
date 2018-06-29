@@ -11,7 +11,7 @@
 	</starting-resources>
 	<starting-units>
 		<unit name="chest" amount="3"/>
-		<unit name="zombie_steve" amount="20"/>
+		<unit name="zombie_steve" amount="3"/>
 		<unit name="cow" amount="2"/>
 		<unit name="zombie" amount="0"/>
 		<unit name="dungeon" amount="1"/>
