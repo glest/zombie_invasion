@@ -1,24 +1,26 @@
 Attention
 
-Ce mod n'est pas un mod officiel, -MegaGlest ne le gère pas correctement- comme vous pouvez le constater, les zombies dans la fonction zombie_invasion ne coûtent rien. Pour que le jeu ne soit pas "overcheat" vous devez jouer les scénarios prédéfinis "regardez les screenshots".
-Si vous voulez juste jouer, libre à vous de créer vos propres parties.
-Ce mod est basé sur les mods mc_pack et imperial_m_g, vous ne pouvez ni produire desunités volantes avec les techs ni produire des zombies avec le minecraft pack.
-Le loading_screen du mod zombie_invasion a été créé avec Gimp par ma personne, il est disponible sur la communauté MegaGlest FR sur Google+ et c'est une image sous license creative commons, vous pouvez l'utiliser comme fond d'écran ou dans une vidéo, c'est un cadeau :D
+Ce mod n'est pas officiel. Les zombies dans la fonction zombie_invasion sont gratuits et peuvent être produits très rapidement. Des scénarios testés sont disponibles "regardez les screenshots".
+Mais libre à vous de créer vos propres parties.
+Ce mod est basé sur les mc_pack et imperial_m_g. La faction tech ne peut pas produire d'unités volantes et la faction minecraft ne peut pas produire de zombies.
+Le loading_screen du mod zombie_invasion a été créé avec Gimp et a été partagé sur ma communauté Google+ MegaGlest FR et est une image sous license creative commons. Faites-en ce que bon vous semble ;)
 
 Suivez moi sur Google+
-https://plus.google.com/u/0/+THDNews
+https://plus.google.com/110354933659865442149
 
-Rejoignez la communauté MegaGlest FR
-https://plus.google.com/u/0/communities/113428160994127311913
+Rejoins mes communautés
+MegaGlest FR - https://plus.google.com/communities/113428160994127311913
+Linux Gaming FR - https://plus.google.com/communities/110279158353278307011
 
-Abonnez vous à mes chaînes YouTube
-https://www.youtube.com/channel/UCFc6fR1e-2xm2rxaNkM8opw
-https://www.youtube.com/channel/UCpwblZTKfD9TldKcDHxbvyA
+Abonne-toi à ma chaîne YouTube
+https://www.youtube.com/channel/UCGD3F1z0F0O5X4HIm50hlvQ
 
-Téléchargez toutes mes cartes
+Tu peux aussi aller voir les vidéos que j'ai posté sur archive.org
+https://archive.org/details/@linux_player
+
+Mes maps megaglest
 https://drive.google.com/open?id=0B6xRarshdokBVkpSVFFfODFFdU0
 
-Merci d'avoir téléchargé ce mod.
 Amusez vous bien ;)
 
-THD Gaming
+Linux Player
