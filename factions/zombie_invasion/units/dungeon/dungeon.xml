@@ -40,7 +40,7 @@
 		</resource-requirements>
 		<resources-stored />
 		<image path="images/dungeon.bmp" />
-		<image-cancel path="../steve/images/cancel.bmp"/>
+		<image-cancel path="../zombie_steve/images/cancel.bmp"/>
 		<meeting-point value="true" image-path="../chest/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="../chest/sounds/click.ogg" />
@@ -252,10 +252,10 @@
 			<anim-speed value="300" />
 			<animation path="models/none.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../steve/sounds/stone1.ogg"/>
-				<sound-file path="../steve/sounds/stone2.ogg"/>
-				<sound-file path="../steve/sounds/stone3.ogg"/>
-				<sound-file path="../steve/sounds/stone4.ogg"/>
+				<sound-file path="../zombie_steve/sounds/stone1.ogg"/>
+				<sound-file path="../zombie_steve/sounds/stone2.ogg"/>
+				<sound-file path="../zombie_steve/sounds/stone3.ogg"/>
+				<sound-file path="../zombie_steve/sounds/stone4.ogg"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>
@@ -271,6 +271,26 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="zombie"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="spawn_zombie_pigman" />
+			<image path="../zombie_pigman/images/zombie_pigman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="zombie_pigman"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="spawn_zombie_steve" />
+			<image path="../zombie_steve/images/zombie_steve.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="zombie_steve"/>
 		</command>
 	</commands>
 </unit>
