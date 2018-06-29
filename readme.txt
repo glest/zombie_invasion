@@ -1,24 +1,27 @@
 Attention
 
-This is not an official pack, -MegaGlest cannot play correctly the zombie_invasion faction- maybe you can see zombies in the zombie_invasion faction cost 0 gold, you must survive to special scenarios "look the screenshots".
-You can also create your own scenarios and play the zombies.
-This pack is based on mc_pack and on imperial_m_g packs, you cannot produce zombies with minecraft and cannot produce flying unities with techs.
-The zombie_invasion loading_screen have been created with Gimp by me, it's posted on the MegaGlest FR community on Google+ and it's a creative commons picture, you can use it for a background or in a video or another thing, it's a present :D
+This is not an official pack, -MegaGlest AI cannot play correctly the zombie_invasion faction-. Maybe you can see that zombies in the zombie_invasion faction cost an ammount of 0 gold. You must survive to special scenarios "look the screenshots" or create a game where some way are invaded by zombies.
+You can create your own scenarios and play the zombies or another factions but remember that in some you will lag if there are to many units.
+This pack is based on mc_pack and on imperial_m_g packs, you cannot produce zombies with minecraft and cannot produce flying unities with techs so that zombie will always be able to kill units.
+I created the zombie_invasion loading_screen with Gimp. I shared it many times : on my MegaGlest FR community on Google+. Now it is a Creative Commons picture, that you and everyone can use it as they want.
 
 Follow me on Google+
-https://plus.google.com/u/0/+THDNews
+https://plus.google.com/110354933659865442149
 
-Join MegaGlest FR community
-https://plus.google.com/u/0/communities/113428160994127311913
+Join my G+ communities
+MegaGlest FR - https://plus.google.com/communities/113428160994127311913
+Linux Gaming FR - https://plus.google.com/communities/110279158353278307011
 
-Subscribe to my YouTube Channels
-https://www.youtube.com/channel/UCFc6fR1e-2xm2rxaNkM8opw
-https://www.youtube.com/channel/UCpwblZTKfD9TldKcDHxbvyA
+Subscribe to my YouTube Channel :
+https://www.youtube.com/channel/UCGD3F1z0F0O5X4HIm50hlvQ
 
-Download all my maps
+You can also watch videos I posted on archive.org :
+https://archive.org/details/@linux_player
+
+
+Go check my megaglest maps :
 https://drive.google.com/open?id=0B6xRarshdokBVkpSVFFfODFFdU0
 
-Thanks for download
 Enjoy
 
-THD Gaming
+Linux Player
