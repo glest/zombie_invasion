@@ -9,7 +9,7 @@ Follow me on Google+
 https://plus.google.com/110354933659865442149
 
 Join my G+ communities
-MegaGlest FR - https://plus.google.com/communities/113428160994127311913
+ZetaGlest Inc. - https://plus.google.com/communities/113428160994127311913
 Linux Gaming FR - https://plus.google.com/communities/110279158353278307011
 
 Subscribe to my YouTube Channel :
@@ -19,7 +19,7 @@ You can also watch videos I posted on archive.org :
 https://archive.org/details/@linux_player
 
 
-Go check my megaglest maps :
+Go check my zetaglest maps :
 https://drive.google.com/open?id=0B6xRarshdokBVkpSVFFfODFFdU0
 
 Enjoy
