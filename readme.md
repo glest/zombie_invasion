@@ -1,3 +1,12 @@
+
+========================================================================================
+
+ARCHIVED
+========
+This project is no longer maintained. If you would like to contact about this, please find us on **[Discord](https://discord.gg/es3EyBB)**.
+
+========================================================================================
+
 Attention
 
 This is not an official pack, -Glest AI cannot play correctly the zombie_invasion faction-. Maybe you can see that zombies in the zombie_invasion faction cost an ammount of 0 gold. You must survive to special scenarios "look the screenshots" or create a game where some way are invaded by zombies.
